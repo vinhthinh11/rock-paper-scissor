@@ -10,6 +10,7 @@ img {
 flex: 1 1 1;
 width: 100px;
 height: 100px;
+transition: all .07s ease;
 }
 body{
     height: 100%;
@@ -62,4 +63,18 @@ footer {
   img.fab.fa-github{
     height: 32px;
     width: 32px;
+  }
+  img:hover{
+    scale: 1.1;
+    border: 1px solid #ebeb32;
+    box-shadow: 0 0 1rem #ebeb32;
+  }
+  .display-score{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+  }
+  p.score-text{
+    font-size: 50px;
+    font-weight: 900;
   }

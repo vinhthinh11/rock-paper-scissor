@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Rock-Paper-Scissor</title>
 </head>
 <body>
@@ -11,15 +12,27 @@
     <p>TRÒ CHƠI OẲN TÙ TÌ</p>
 </div>
 <div class="content">
-    <p>Chọn phượng án để kết liễu đối thủ</p>
-    <p>First to 5 point win the game</p>
+    <p>Chọn phương án để kết liễu đối thủ</p>
+    <p class="display-result">First to 5 point win the game</p>
     <div class="display-img">
-    <img src="rock.png">
-    <img src="paper.png">
-    <img src="scissors.png"> 
+    <img data-key="bua" src="rock.png">
+    <img data-key="bao" src="paper.png">
+    <img data-key="keo" src="scissors.png"> 
+</div>
+<div class="display-score">
+    <div style="border: 2px solid #ebeb32;padding:10px;flex:1 1 1;
+    width: 300px;margin:20px;">
+        <p class="score-text player">0</p>
+        <p>Your Score</p>
+    </div>
+    <div style="border: 2px solid #ebeb32;padding:10px;flex:1 1 1;
+    width:300px;margin:20px;">
+        <p class="score-text computer">0</p>
+        <p>Computer Score</p>
+    </div>
 </div>
 </div>
-    <script src="#"></script>
+    
 </body>
 <footer>
     <div>Copyright © 2022 nguyenvinhthinh
