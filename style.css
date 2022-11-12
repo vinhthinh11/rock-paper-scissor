@@ -78,3 +78,11 @@ footer {
     font-size: 50px;
     font-weight: 900;
   }
+ .display-score div {
+  border: 2px solid #ebeb32;padding:10px;flex:1 1 1;
+  width: 300px;margin:20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
